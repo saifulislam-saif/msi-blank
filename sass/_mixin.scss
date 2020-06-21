@@ -1,1 +1,12 @@
-//mixin comment
+@mixin transition($property) {
+    transition: $property;
+    -webkit-transition: $property;
+    -moz-transition: $property;
+    -ms-transition: $property;
+    -o-transition: $property;
+}
+
+section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}

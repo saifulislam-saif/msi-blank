@@ -1,0 +1,42 @@
+    /*  
+=======================================================
+================== Header Part Start ==================
+=======================================================
+*/
+    
+    .main_menu {
+        background: $header-color;
+        .nav-item {
+            .nav-link {
+                font-family: $header-font-regular;
+                color: $white;
+                @include transition($transition-default);
+            }
+        }
+        ul {
+            li {
+                a {
+                    font-family: $header-font-regular;
+                    color: $white;
+                    @include transition($transition-default);
+                }
+            }
+        }
+        .profile_menu {
+            .profile {
+                font-family: $header-font-regular;
+                color: $white;
+                @include transition($transition-default);
+            }
+            .log__out {
+                font-family: $header-font-regular;
+                color: $white;
+                @include transition($transition-default);
+            }
+        }
+    }
+    /*
+=======================================================
+================== Header Part End ====================
+=======================================================
+*/

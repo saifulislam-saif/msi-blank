@@ -1,5 +1,7 @@
+@import 'comment';
+@import './font';
 @import './variables';
 @import './mixin';
-@import './components/reset';
-@import './components/header';
-@import './components/footer';
+@import './reset';
+@import './header';
+@import './footer';
