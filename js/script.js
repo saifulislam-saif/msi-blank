@@ -1,1 +1,2 @@
-msiTyping('.msi', 250, 1);
+msiTypingM();
+
