@@ -13,6 +13,27 @@
                 @include transition($transition-default);
             }
         }
+        ul {
+            li {
+                a {
+                    font-family: $header-font-regular;
+                    color: $white;
+                    @include transition($transition-default);
+                }
+            }
+        }
+        .profile_menu {
+            .profile {
+                font-family: $header-font-regular;
+                color: $white;
+                @include transition($transition-default);
+            }
+            .log__out {
+                font-family: $header-font-regular;
+                color: $white;
+                @include transition($transition-default);
+            }
+        }
     }
     /*
 =======================================================
